@@ -1,8 +1,6 @@
+@import './base/reset';
 @import './base/root';
 @import './base/globals';
+@import './base/typography';
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import './components/cards';
